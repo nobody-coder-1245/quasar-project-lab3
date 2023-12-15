@@ -1,8 +1,13 @@
 # QuasarProjectLab3 (quasar-project-lab-3)
 
+## นายไตรภาค สิทธิแก้ว รหัสนศ 6404101318
+
+## โปรเจค์แล็บนี่้จัดทำเพื่อส่งในรายวิชา คพ347 วิศวกรรมซอฟต์แวร์
+
 lab3
 
 ## Install the dependencies
+
 ```bash
 yarn
 # or
@@ -10,32 +15,33 @@ npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
-
 ### Lint the files
+
 ```bash
 yarn lint
 # or
 npm run lint
 ```
 
-
 ### Format the files
+
 ```bash
 yarn format
 # or
 npm run format
 ```
 
-
-
 ### Build the app for production
+
 ```bash
 quasar build
 ```
 
 ### Customize the configuration
+
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
