@@ -3,11 +3,14 @@
     <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
       <q-input
         filled
-        v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+        type="number"
+        v-model="age"
+        label="อายุ *"
         lazy-rules
-        :rules="[(val) => (val && val.length > 0) || 'Please type something']"
+        :rules="[
+          (val) => (val !== null && val !== '') || 'กรุณาใส่อายุ',
+          (val) => (val > 0 && val < 100) || 'กรุณาใส่อายุจริง',
+        ]"
       />
       <q-input
         filled
